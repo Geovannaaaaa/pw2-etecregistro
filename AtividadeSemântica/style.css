@@ -100,6 +100,20 @@ section {
     width:70%;
 }
 
+.card img{
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+.card{
+  display: flex;
+  align-items: center; 
+  gap: 20px; 
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
 /* Artigos */
 article {
     background-color: #670101;
@@ -113,16 +127,6 @@ article {
     
 }
 
-article img{
-    
-    width: 180px;
-    height: auto;
-    border-radius: 6px;
-    margin: 10px 0;
-    display: block;
-    margin: 10px auto;
-}
-
 article h3 {
     margin-bottom: 8px;
     color: #ffffff;
@@ -134,7 +138,7 @@ article p {
     
 }
 
-/* Aside - Conteúdo relacionado ou secúndraio */
+
 aside {
     background-color: #bc0000;
     padding: 15px;
@@ -172,7 +176,6 @@ aside hr {
     background-color: #4a0000;
 }
 
-/* Rodapé */
 footer {
     background-color: rgb(114, 0, 0);
     color: #ffffff;
