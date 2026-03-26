@@ -1,0 +1,109 @@
+/* css externo */
+
+/* Estilos universair */
+* {
+    margin: 10px;
+    padding: 2px;
+}
+
+/* EStilos gerais */
+
+body{
+    font-family: 'UnifrakturMaguntia', cursive;
+    background-color: rgb(255, 112, 112);
+    padding: 20px;
+
+
+}
+
+.destaque {
+    background-color: rgb(134, 0, 0);
+    color: blanchedalmond;
+    padding: 10px;
+    border-left: 5px solid black;
+    font-weight: bold;
+}
+
+.box {
+    
+    padding: 30px;
+    text-align: center;
+    border: 2px dashed;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.box:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    transform: scale(0.8);
+}
+
+.btn-dowload{
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 3s ease;
+}
+
+.btn-dowload :hover{
+    background-color: rgb(0, 0, 0);
+}
+
+/*Formatando inputs de formulário*/
+
+input{
+    width: 300px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: border-color 2s ease, box-shadow 2s ease;
+}
+
+input:focus{
+    outline: none;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/*Selecionando uma input pelo seu tipo*/
+input[type="email"] {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 2, 2);
+}
+
+/*Citações personalizadas com ::before e ::after*/
+.citacao {
+    font-family: 'arial';
+    width: 820px;
+    position: relative;
+    padding: 30px 40px;
+    background-color: rgb(35, 35, 35);
+    border-left: 5px solid red;
+    font-style: italic;
+    font-size: 20px;
+    margin: 20px 0;
+    color: aliceblue;
+}
+
+.citacao::before{
+    content: ' " ';
+    top: -10px;
+    left: 10px;
+    font-size: 80px;
+    color: red;
+}
+.citacao::after{
+    content: ' " ';
+    position: absolute;
+    bottom: -40px;
+    right: 90px;
+    font-size: 80px;
+    color: red;
+}
