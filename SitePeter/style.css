@@ -1,0 +1,60 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    font-family: 'UnifrakturCook';
+    background-color: rgb(33, 33, 33);
+    color: aliceblue;
+     line-height: 1.8;
+}
+
+header {
+    background-color: green;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gothic';
+    padding: 20px 20px;
+    border-bottom:3px solid rgb(0, 40, 0);
+}
+
+nav {
+    background-color: rgb(0, 31, 0);
+    padding: 10px;
+   
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    
+
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: #00c01a;
+    font-size: large;
+}
+
+hr{
+    height: 1px;
+    background-color: #baffc3;
+    margin: 20px;
+}
+
+main {
+    padding: 28px;
+}
+
+
