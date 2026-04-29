@@ -1,0 +1,65 @@
+* {
+    font-family: 'Dancing Script';
+    text-align: center;
+    background-color: pink;
+    color: rgb(95, 16, 67);
+}
+.container {
+    display: flex;
+
+    /* GAP é o espaçamento entre os items da flexbox */
+    gap: 50px;
+
+    /* Alinhando os items no centro horizontal */
+    /* justify-content: center; */
+
+    background-color: rgb(255, 80, 138);
+    padding: 20px;
+    height: 300px;
+}
+
+.card {
+    background-color: rgb(255, 146, 186);
+    color: rgb(95, 16, 67);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-weight: bold;
+}
+
+p {
+    font-size: medium;
+    color: rgb(138, 7, 94);
+    font-weight: bold;
+}
+
+.row-center {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.colum-left {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.parte-inferior {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.linha-espacada {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrap {
+    flex-direction: row;
+    /* Ativa a quebra de linha */
+    flex-wrap: wrap;
+    align-items: center;
+}
