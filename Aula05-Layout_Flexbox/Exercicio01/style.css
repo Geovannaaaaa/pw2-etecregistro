@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+
+    /* GAP é o espaçamento entre os items da flexbox */
+    gap: 50px;
+
+    /* Alinhando os items no centro horizontal */
+    /* justify-content: center; */
+
+    background-color: rgb(255, 80, 138);
+    padding: 20px;
+    height: 600px;
+}
+
+.card {
+     background-color: rgb(255, 146, 186);
+    color: rgb(95, 16, 67);
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.inferior-direito {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.coluna-centro-espacado {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.superior-direito {
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.coluna-centro {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.centro-superior {
+    justify-content: center;
+    align-items: flex-start;
+}
