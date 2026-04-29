@@ -1,12 +1,6 @@
 .container {
     display: flex;
-
-    /* GAP é o espaçamento entre os items da flexbox */
     gap: 50px;
-
-    /* Alinhando os items no centro horizontal */
-    /* justify-content: center; */
-
     background-color: rgb(255, 80, 138);
     padding: 20px;
     height: 600px;
