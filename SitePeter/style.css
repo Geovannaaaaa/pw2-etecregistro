@@ -19,6 +19,7 @@ main {
 }
 
 .vinhos {
+    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -29,7 +30,14 @@ main {
     padding: 50px;
     text-align: center;
     background-color: #111;
-
+}
+.vinhos h2 {
+    font-family: 'UnifrakturCook';
+    color: #ffffff;
+    text-shadow:
+        0 0 10px rgb(12, 104, 0),
+        0 0 10px #00580d,
+        0 0 20px #005508;
 }
 
 
@@ -70,7 +78,12 @@ nav a {
     text-decoration: none;
 }
 nav a:hover {
+    font-size: large;
     color: #000000;
+    text-shadow:
+        0 0 5px rgb(0, 0, 0),
+        0 0 10px #000000,
+        0 0 20px #000000;
 }
 
 .hero{
@@ -116,6 +129,7 @@ nav a:hover {
 .btn_primary:hover {
     background-color: rgb(0, 78, 0);
     scale: 0.9;
+    box-shadow: 0 0 28px rgba(0, 0, 0, 0.6);
 }
 
 .cards {
@@ -186,7 +200,7 @@ aside a {
     color: #000000;
 }
 
-footer {
+/* footer {
     background-color: #005c0c;
     color: #ffffff;
     text-align: center;
@@ -195,5 +209,39 @@ footer {
 }
 footer a {
     color: #000000;
+} */
+
+/* FOOTER */
+.footer {
+    background-color: #003107;
+    color: rgb(0, 0, 0);
+    padding: 3rem 0 1rem;
+}
+.footer a {
+    color: #000000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+.footer-section {
+    margin: 2rem;
+    flex: 1;
+    min-width: 200px;
+}
+.footer-section h4 {
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+.footer-bottom {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid #000000;
+    color: #ffffff;
 }
 
