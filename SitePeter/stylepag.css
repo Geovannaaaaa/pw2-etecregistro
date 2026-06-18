@@ -287,11 +287,11 @@ aside a {
 /* FOOTER */
 .footer {
     background-color: #003107;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 3rem 0 1rem;
 }
 .footer a {
-    color: #000000;
+    color: #ffffff;
 }
 
 .footer-content {
@@ -309,7 +309,7 @@ aside a {
 }
 .footer-section h4 {
     margin-bottom: 1rem;
-    color: #ffffff;
+    color: #00b52a;
 }
 .footer-bottom {
     text-align: center;
