@@ -251,6 +251,7 @@ main {
 /* SOBRE */
 .sobre {
     padding: 4rem 0;
+    background-color: #111;
 }
 .sobre-flex {
     display: flex;
@@ -318,7 +319,6 @@ main {
     flex-wrap: wrap;
     padding: 50px;
     text-align: center;
-    background-color: #111;
 }
 .produtos h2 {
     font-family: 'UnifrakturCook';
@@ -369,6 +369,86 @@ main {
     border-radius: 5px;
 }
 
+/* Premium */
+.Premium {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 50px;
+    background-color:  #003107;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.premium-flex h2 {
+    background-color: #003107;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'UnifrakturCook';
+    color: #ffffff;
+    text-shadow:
+        0 0 10px rgb(12, 104, 0),
+        0 0 10px #00580d,
+        0 0 20px #005508;
+}
+.premium-flex p {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.pacotes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    background-color: #111;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.pacote {
+    background-color: #1b1b1b;
+    width: 330px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    border: 2px solid #0f6d11;
+    transition: all 0.3s ease;
+}
+.pacote:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgb(0, 112, 30);
+}
+.pacote h3 {
+    margin-top: 15px;
+    color: #b3003c;
+}
+.pacote span {
+    color: #00cb1f;
+}
+.pacote button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(0, 84, 32);
+    color: rgb(0, 0, 0);
+    font-family: 'Playfair Display';
+    cursor: pointer;
+    border-radius: 5px;
+}
+.pacote ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pacote li {
+    align-items: center;
+    /* list-style-type:"🍷"; */
+    margin-top:1rem;
+    margin-left: 13px;
+}
+
 
 /* Depoimentos */
 .depoimentos {
@@ -381,11 +461,11 @@ main {
     text-align: center;
     margin-top: 30px;
     font-family:'UnifrakturCook';
-    color: #003a11;
+    color: #ffffff;
     text-shadow:
-    0 0 5px rgb(0, 0, 0),
+    0 0 5px rgb(0, 87, 13),
     0 0 10px #006711,
-    0 0 20px #000000;
+    0 0 20px #00c62b;
     font-size: 1.7rem;
 }
 
@@ -429,7 +509,21 @@ main {
     font-family:'UnifrakturCook';
 }
 
+.rosa-esquerda {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 180px;
+    opacity: 0.8;
+}
 
+.rosa-direita {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 180px;
+    opacity: 0.8;
+}
 
 /* FOOTER */
 .footer {
