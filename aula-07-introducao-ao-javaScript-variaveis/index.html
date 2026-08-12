@@ -18,23 +18,63 @@
     em bloco*/
 
     // Declarando váriaveis
-    var nome = "Geovanna";
+    // var nome = "Geovanna";
+    // document.write(nome);
+    // document.write("<br>");
+    //Solicitando dados ao usuário
+    var nome = window.prompt("Digite seu nome:");
     document.write(nome);
-    document.write("<br>");
-    nome = "Gaeiuhf";
-    document.write(nome);
+     document.write("<br>");
 
     // LET
-    let cidade = "Registro";
+    let cidade = window.prompt("Digite a sua cidade:");
     // Não dá para criar duas váriaveis com o mesmo nome no let.
+    // cidade = "São Paulo";
+    document.write("Eu moro em " + cidade);
     document.write("<br>");
-    cidade = "São Paulo";
-    document.write("Eu moro em " + cidade + '<br>');
 
     // CONST
-    const idade = 1357;
+    const idade = Number(window.prompt("Digite a sua idade;"));
     // idade = 1358;
-    document.write("Tenho " + idade + "anos" + '<br>');
+    document.write("Tenho " + idade + "anos");
+    document.write("<br>");
     // Não dá para criar duas váriaveis com o mesmo nome no const.
+
+    //Verificando o tipo das váriaveis
+    document.write("O tipo da váriavel nome é: " + typeof nome);
+     document.write("<br>");
+    document.write("O tipo da váriavel idade é: " + typeof idade);
+     document.write("<br>");
+    //O JavaScript atribui os tipos de váriavel de forma dinâmica
+
+    //Exibindo uma mensagem de alerta ao usuário
+    window.alert("Bem-vindo " + nome + "!");
+    document.write("<br>");
+
+    //Solicitando ao usuário dois números
+    const n1 = Number(window.prompt("Digite um número: "));
+    document.write("<br>"); 
+    const n2 = Number(window.prompt("Digite outro número: "));
+    const soma = n1 + n2;
+  document.write(`<br> O resultado da soma de ${n1} + ${n2} é ${soma}`);
+  //${variavel}
+  document.write("<br>");
+
+  // FORMATANDO STRINGS
+  document.write(`<br> Seu nome em letras maiúsculas é: ${nome.toUpperCase()}`);
+  document.write(`<br> Seu nome em letras minúsculas é: ${nome.toLowerCase()}`);
+  document.write("<br>");
+
+  // FORMATANDO NÚMEROS
+  const salario = 2500;
+  document.write(`<br> Salario com casas decimais ${salario.toFixed(2)}`);
+  document.write(`<br> Salario com casa decimal com vírgula ${salario.toFixed(2).replace(',', ',')}`);
+  document.write("<br>");
+
+  //FORMATAÇÃO DE MOEDAS
+  document.write(`<br> Sálario em real: ${salario.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`);
+
+  
+
   </script>
 </html>
