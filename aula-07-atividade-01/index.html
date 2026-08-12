@@ -15,13 +15,14 @@
     var cidade = window.prompt("Agora, digite a sua cidade:");
     document.write(`<br> Eu moro em: ${cidade.toUpperCase()}`);
 
-    var data = Number(window.prompt("Digite a sua data de nascimento"));
-    document.write(`<br> Eu nasci em: ${data}`);
-    const soma = 2026 + data;
+    var nascimento = Number(window.prompt("Digite o seu ano de nascimento: "));
+    var ano = Number(window.prompt("Digite o ano atual: "));
+    const idade = ano - nascimento;
+    document.write(`<br> Minha idade é: ${idade}`);
 
-    var salario = Number(window.prompt("E por fim, digite o seu salário: "));
-    document.write(`<br> Meu salário convertido em dólares: ${salario.toLocaleString('pt-br', {style: 'currency', currency: 'USD'})}`);
-
+    var salario = Number(window.prompt("E por fim, digite o seu salário, para que possamos converter para o dólar: "));
+    var conversao = salario * 0.19;
+    document.write(`<br> Meu salário convertido em dólares: ${conversao.toLocaleString('pt-br', {style: 'currency', currency: 'USD'})}`);
 
 </script>
 </html>
