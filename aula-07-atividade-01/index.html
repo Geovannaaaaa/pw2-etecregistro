@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade01-Aula07</title>
+</head>
+<body>
+    <h1>Atividade 01</h1>
+</body>
+<script>
+    var nome = window.prompt("Caro usuário, por gentileza, digite seu nome: ");
+    document.write(`Meu nome é: ${nome}`);
+    
+    var cidade = window.prompt("Agora, digite a sua cidade:");
+    document.write(`<br> Eu moro em: ${cidade.toUpperCase()}`);
+
+    var data = Number(window.prompt("Digite a sua data de nascimento"));
+    document.write(`<br> Eu nasci em: ${data}`);
+    const soma = 2026 + data;
+
+    var salario = Number(window.prompt("E por fim, digite o seu salário: "));
+    document.write(`<br> Meu salário convertido em dólares: ${salario.toLocaleString('pt-br', {style: 'currency', currency: 'USD'})}`);
+
+
+</script>
+</html>
