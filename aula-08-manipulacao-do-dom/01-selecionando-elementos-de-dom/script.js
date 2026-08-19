@@ -24,7 +24,6 @@ pa2.style.color = "purple";
 pa2.innerText = "Selecionado elementos pelo ID";
 
 
-const = getElementsByClassName()
-
+c
 
 
