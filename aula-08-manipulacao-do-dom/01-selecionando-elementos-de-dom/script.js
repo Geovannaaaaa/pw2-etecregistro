@@ -1,6 +1,6 @@
-// JavaScript
+// // JavaScript
 
-//Selecionando um elemento pela Tag
+// //Selecionando um elemento pela Tag
 // const p0 = window.document.getElementsByTagName('p')[0];
 
 // p0.style.color = "purple";
@@ -10,13 +10,13 @@
 
 // p1.style.color = "green";
 
-// // Capturando o corpo do site
+// // // Capturando o corpo do site
 // const corpoSite = window.document.body;
 
-// // Mudando sua cor
+// // // Mudando sua cor
 // corpoSite.style.background = "black";
 
-// // Acessando conteúdo de um elemento DOM
+// // // Acessando conteúdo de um elemento DOM
 // document.write(`<br> No 2º parágrafo do site está escrito assim: ${p1.innerText}`);
 
 //ID
