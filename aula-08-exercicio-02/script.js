@@ -15,7 +15,7 @@
 
 // seu código aqui
 
- const titulo = document.getElementaryById("titulo");
+ const titulo = document.getElementById("titulo");
 
  titulo.innerText = "Título Alterado";
  titulo.style.color = "blue";
@@ -30,6 +30,12 @@
 
 // seu código aqui
 
+const paragrafos = document.querySelectorAll(".paragrafo");
+
+paragrafos.forEach(function(paragrafo){
+    paragrafo.style.backgroundColor = "yellow"
+});
+
 // ------------------------------------------------------
 //Exercício 3
 // Selecione o elemento com id "caixa" e:
@@ -41,6 +47,12 @@
 
 // seu código aqui
 
+const caixa = document.getElementById("caixa");
+
+caixa.innerText = "Conteúdo atualizado";
+caixa.style.border = "3px solid red";
+caixa.style.fontSize = "20px";
+
 // -----------------------------------------------------
 // Exercicio 4
 // Selecione os itens da lista (id "lista")
@@ -49,6 +61,10 @@
 // -----------------------------------------------------
 
 // seu código aqui
+
+const lista = document.querySelector("#lista");
+
+lista.innerText = "Item Alterado";
 
 // -----------------------------------------------------
 // Exercício 5
@@ -60,3 +76,9 @@
 // ------------------------------------------------------
 
 // seu código aqui
+
+const botao =  document.getElementById("botao");
+
+botao.innerText = "Clique aqui";
+botao.style.backgroundColor = "green";
+botao.style.color = "white";
