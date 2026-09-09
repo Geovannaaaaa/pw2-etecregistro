@@ -1,0 +1,12 @@
+body {
+    font-family: 'UnifrakturCook';
+    font: normal 18pt;
+}
+input {
+    font: normal 18pt;
+    font-family: 'UnifrakturCook';
+}
+div#resultado {
+    margin-top: 20px;
+    font-family: 'UnifrakturCook';
+}
