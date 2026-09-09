@@ -1,10 +1,13 @@
 body {
     font-family: 'UnifrakturCook';
-    font: normal 18pt;
+    align-items: center;
+}
+h1 {
+    text-align: center;
 }
 input {
-    font: normal 18pt;
     font-family: 'UnifrakturCook';
+    align-items: center;
 }
 div#resultado {
     margin-top: 20px;
