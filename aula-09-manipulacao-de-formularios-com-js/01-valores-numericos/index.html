@@ -8,12 +8,16 @@
     <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Cormorant+Garamond&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="calculadora">
     <h1>Calculadora com JavaScript</h1>
+    <hr>
     <!-- Campos da Calculadora -->
     <h3>Insira dois números:</h3>
-    <input type="number" name="n1" id="n1" min="0" max="666">
+    <div class="numeros">
+    <input type="number" name="n1" id="n1" min="0" max="1000">
     <h3><strong>e</strong></h3>
-    <input type="number" name="n2" id="n2" min="0" max="666">
+    <input type="number" name="n2" id="n2" min="0" max="1000">
+    </div>
     <h3>Selecione a operação:</h3>
     <input type="button" value="+" onclick="somar()">
     <input type="button" value="-" onclick="subtrair()">
@@ -22,9 +26,9 @@
     <!-- Área de resultado -->
      <h3>Resultado:</h3>
     <div id="resultado"></div>
-    <br>
-    <br>
-    <input type="button" value="Limpar" onclick="limpar()">
+    <hr>
+    <input type="button" value="Limpar" id="buttonLimpar" onclick="limpar()">
+    </div>
 
     <script src="script.js"></script>
 </body>
