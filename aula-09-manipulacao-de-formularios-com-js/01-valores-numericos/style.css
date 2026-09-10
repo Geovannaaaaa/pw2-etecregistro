@@ -6,6 +6,10 @@ body {
     min-height: 100vh;
     text-align: center;
     background-color: #000000;
+    background-image: url("Imagens/emoFundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 input {
@@ -21,10 +25,10 @@ div#resultado {
     background-color: rgb(70, 0, 70);
     color: aliceblue;
     width: 500px;
-    height: 532px;
-    border: 10px solid #ffffff;
+    height: 590px;
+    border: 10px solid rgb(29, 0, 29);
     border-radius: 15px;
-    box-shadow: 0 0 15px #ffffff;
+    box-shadow: 0 0 25px #000000;
 }
 .calculadora h1 {
     text-align: center;
@@ -65,12 +69,12 @@ input#buttonLimpar {
 }
 input#buttonLimpar:hover {
     transform: scale(0.9);
-    background-color: #500070;
-    border-color: #b000d4;
-    box-shadow: 0 0 10px #500070;
+    background-color: #310144;
+    border-color: #fbe7ff;
+    box-shadow: 0 0 10px #fbf2ff;
     text-shadow:
         0 0 5px #ffffff,
-        0 0 10px #b000d4;
+        0 0 10px #fcedff;
 }
 .numeros {
     display: flex;
@@ -88,7 +92,7 @@ input#buttonLimpar:hover {
     margin: 20px auto;
     padding: 15px;
 
-    background-color: #0b0710;
+    background-color: #1d1226;
     border: 2px solid #fdfbfd;
     border-radius: 12px;
 
